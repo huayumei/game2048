@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="2048.css" />
+  <script src="animation.js"></script>
+  <script src="2048.js"></script>
+ </head>
+ <body>
+  <p>Score:<span id="score"></span>&nbsp;&nbsp;Top:<span id="top"></span></p>
+  <div id="gridPanel"></div>
+  <div id="gameOver">
+	  <div ></div>
+	  <p>
+		GameOver!<br>
+		Score:<span id="final"></span><br>
+		<a class="btn" onclick="game.start()">Try again!</a>
+	  </p>
+  </div>
+ </body>
+</html>
